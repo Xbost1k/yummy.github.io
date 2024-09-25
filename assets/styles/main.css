@@ -1,0 +1,193 @@
+* {
+	user-select: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.01em;
+	font-size: 16px;
+	color: var(--brown);
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/* Header */
+
+.header {
+	margin-top: 30px;
+}
+.header__logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__right a:first-child {
+	margin-right: 50px;
+}
+.header__right a {
+	text-decoration: none;
+	color: var(--brown);
+	line-height: 130%;
+	text-transform: capitalize;
+}
+
+/* end */
+
+/* section intro */
+
+.intro {
+	padding-top: 161px;
+	padding-bottom: 211px;
+	background-image: url("../images/dog_yummy_intro.png");
+	background-repeat: no-repeat;
+	background-position: right 54%;
+	background-size: 575px 596px;
+	padding-right: 560px;
+}
+.intro__left {
+	width: 575px;
+	max-width: 100%;
+}
+.intro__title {
+	font-size: 110px;
+	text-transform: uppercase;
+	color: var(--brown);
+	font-weight: 800;
+	margin-bottom: 40px;
+	letter-spacing: 0.05em;
+	line-height: 100%;
+}
+.intro__title span {
+	color: var(--orange);
+}
+.intro__subtitle {
+	line-height: 150%;
+	margin-bottom: 50px;
+}
+.intro__btn {
+	line-height: 130%;
+	font-size: 20px;
+	color: white;
+	background-color: var(--brown);
+	border: none;
+	padding: 22px;
+	cursor: pointer;
+}
+
+/* end */
+
+/* sweets */
+.sweets {
+	background-color: var(--background);
+	padding: 150px 0;
+	color: var(--chocolate)
+}
+
+.subtitle {
+	line-height: 110%;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 72px;
+	text-align: center;
+	color: var(--brown);
+	margin-bottom: 70px;
+}
+.subtitle span {
+	color: var(--orange);
+}
+.sweets__cards {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	column-gap: 30px;
+	flex-wrap: wrap;
+}
+.sweets__card {
+	width: 370px;
+	background-color: #fff;
+	padding-bottom: 36px;
+}
+.sweets__card figcaption {
+	margin-top: 36px;
+	text-align: center;
+	font-size: 24px;
+	color: var(--chocolate);
+	line-height: 130%;
+	font-weight: 600;
+}
+.sweets__card-text {
+	line-height: 150%;
+	text-align: center;
+	padding: 0 20px;
+	padding-top: 15px;
+}
+
+/* end */
+
+/* advice */
+
+.advice {
+	padding: 150px 0;
+}
+.advice__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.advice__subtitle {
+	text-align: left;
+	margin-bottom: 30px;
+	width: 455px;
+}
+.advice__text {
+	line-height: 150%;
+	margin-bottom: 60px;
+}
+.advice__list-title {
+	color: var(--chocolate);
+	line-height: 130%;
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.advice__list {
+	margin-left: 25px;
+}
+.advice__list-item {
+	line-height: 150%;
+	font-size: 16px;
+	color: var(--brown);
+	letter-spacing: 0.01em;
+	font-weight: 500;
+}
+
+/* end */
+
+/* footer */
+.footer {
+	background-color: var(--brown);
+	padding: 40px 0;
+}
+
+.footer__wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 100px; 
+}
+
+.footer__text {
+	font-size: 36px;
+	color: #fff;
+	line-height: 130%;
+	font-weight: 500;
+}
